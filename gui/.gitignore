@@ -1,0 +1,7 @@
+dist
+dist-electron
+node_modules
+data
+tmp
+*.png
+*.json
