@@ -1,0 +1,104 @@
+.article-stats-container {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.stats-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.stats-chip-list {
+  margin-top: 8px;
+  gap: 8px;
+}
+
+.chips-row {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.holding-summary {
+  margin-top: 6px;
+}
+
+.chips-row button {
+  min-width: 40px;
+  min-height: 40px;
+}
+
+.chips-row mat-progress-spinner {
+  width: 24px;
+  height: 24px;
+}
+.stat-card {
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+}
+
+.stat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.stat-title h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.holding-value {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.holding-value.positive-holding {
+  color: #16a34a;
+}
+
+.holding-value.negative-holding {
+  color: #dc2626;
+}
+
+.holding-value.neutral-holding {
+  color: #475569;
+}
+.net-profit-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 12px;
+}
+
+.net-value {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: auto;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.net-value.profit {
+  color: #16a34a;
+}
+
+.net-value.loss {
+  color: #dc2626;
+}
+
+.net-percent {
+  font-size: 0.8rem;
+  color: inherit;
+}
